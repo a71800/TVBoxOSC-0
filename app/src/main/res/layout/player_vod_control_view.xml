@@ -150,24 +150,19 @@
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/ts_24" />
        
-#            <TextView
-#                android:id="@+id/play_time_reset"
-#                android:layout_width="wrap_content"
-#                android:layout_height="wrap_content"
-#                android:layout_marginEnd="@dimen/vs_5"
-#                android:layout_marginRight="@dimen/vs_5"
-#                android:background="@drawable/button_dialog_transparent"
-#                android:focusable="true"
-#                android:padding="@dimen/vs_10"
-#                android:text="RS"
-#                android:textColor="@android:color/white"
-#                android:textSize="@dimen/ts_24" />
-            <ImageView
+            <TextView
                 android:id="@+id/play_time_reset"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"                    
-                android:src="@drawable/reset" />
-            
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/vs_5"
+                android:layout_marginRight="@dimen/vs_5"
+                android:background="@drawable/button_dialog_transparent"
+                android:focusable="true"
+                android:padding="@dimen/vs_10"
+                android:text="↺"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/ts_16" />
+           
             <TextView
                 android:id="@+id/play_time_end"
                 android:layout_width="wrap_content"
