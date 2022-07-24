@@ -19,6 +19,7 @@
         android:textAlignment="gravity"
         android:textColor="@android:color/white"
         android:textSize="@dimen/ts_24"
+        android:textStyle="bold"      
         tools:text="11111111111" />
 
     <com.owen.tvrecyclerview.widget.TvRecyclerView
