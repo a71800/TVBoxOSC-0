@@ -160,7 +160,7 @@
                 android:focusable="true"
                 android:padding="@dimen/vs_10"
                 android:src="@drawable/reset" />          
-#            <TextView
+# <TextView
 #               android:id="@+id/play_time_reset"
 #                android:layout_width="wrap_content"
 #                android:layout_height="wrap_content"
