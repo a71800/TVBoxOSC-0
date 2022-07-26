@@ -279,8 +279,6 @@ public class DetailActivity extends BaseActivity {
                     seriesAdapter.getData().get(vodInfo.playIndex).selected = true;
                     seriesAdapter.notifyItemChanged(vodInfo.playIndex);
                     jumpToPlay();
-                    if (showPreview && !fullWindows)
-                        toggleFullPreview();
                 }
             }
         });
