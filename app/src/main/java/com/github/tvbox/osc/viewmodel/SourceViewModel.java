@@ -613,17 +613,16 @@ public class SourceViewModel extends ViewModel {
                                 //infoBeanList.add(new Movie.Video.UrlBean.UrlInfo.InfoBean(s.substring(0, s.indexOf("$")), s.substring(s.indexOf("$") + 1)));
                             }
                         } */
-						for (String s : str) {//改进采集源问题
-                            if (s.contains("$")) {//加一句
-				        		String[] ss = s.split("\\$");
+			  for (String s : str) {//改进采集源问题
+                            	String[] ss = s.split("\\$");
                                 if (ss.length > 0) {
                                     if (ss.length == 2) {
                                         infoBeanList.add(new Movie.Video.UrlBean.UrlInfo.InfoBean(ss[0], ss[1]));
                                 } else if (ss.length == 1) {
-                                    infoBeanList.add(new Movie.Video.UrlBean.UrlInfo.InfoBean((infoBeanList.size() + 1) + "", ss[0]));
+                                    infoBeanList.add(new Movie.Video.UrlBean.UrlInfo.InfoBean(s.substring(0, s.indexOf("$")), s.substring(s.indexOf("$") + 1)));
                                 }
                             }
-                        }}//加末符号
+                        }
                         urlInfo.beanList = infoBeanList;
                     }
                 }
